@@ -36,7 +36,7 @@ cache = None
 qcache = None
 chat_log = None
 botname = 'Disha Awasthi'
-username = 'Disha Awasthi_bot'
+username = 'dishaawasthi_bot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -66,8 +66,8 @@ def start(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Harshit Ethic'
-        username = 'harshitethic_bot'
+        botname = 'Disha Awasthi'
+        username = 'dishaawasthi_bot'
         update.message.reply_text('Hi')
         return 
     else:
@@ -93,8 +93,8 @@ def reset(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Harshit Ethic'
-        username = 'harshitethic_bot'
+        botname = 'Disha Awasthi'
+        username = 'dishaawasthi_bot'
         update.message.reply_text('Bot has been reset, send a message!')
         return
     if tim == 1:
